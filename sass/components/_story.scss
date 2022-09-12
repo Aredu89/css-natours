@@ -44,8 +44,8 @@
   }
 
   &:hover &__caption {
+    @include absCenter;
     opacity: 1;
-    transform: translate(-50%, -50%);
   }
 
   &:hover &__image {
